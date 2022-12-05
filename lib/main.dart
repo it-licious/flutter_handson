@@ -14,9 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'IT Licious Flutter Hands-on',
       theme: ThemeData(),
-      home: const Scaffold(
-        body: TasksScreen(),
-      ),
+      home: const TasksScreen(),
     );
   }
 }

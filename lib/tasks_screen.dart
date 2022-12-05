@@ -8,6 +8,9 @@ class TasksScreen extends StatelessWidget {
     // TODO Provide the TasksCubit using a BlocBuilder
     // TODO Show tasks in a ListView
     // TODO Add TextFormField to allow new task entry
-    return Container();
+    return Scaffold(
+      appBar: AppBar(title: const Text("IT Licious")),
+      body: Container(),
+    );
   }
 }

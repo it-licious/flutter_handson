@@ -10,7 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO Use a BlocProvider to provide the TasksCubit to all descendants
     return MaterialApp(
       title: 'IT Licious Flutter Hands-on',
       theme: ThemeData(),

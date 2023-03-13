@@ -5,9 +5,6 @@ class TasksScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO Provide the TasksCubit using a BlocBuilder
-    // TODO Show tasks in a ListView
-    // TODO Add TextFormField to allow new task entry
     return Scaffold(
       appBar: AppBar(title: const Text("IT Licious")),
       body: Container(),

@@ -32,7 +32,7 @@ You will need a [`ListView`](https://api.flutter.dev/flutter/widgets/ListView-cl
 
 > Tip: Hot Reload after any code change by saving the file or using Cmd + F5 (VS Code) or Cmd + \ (Android Studio).
 
-For the complete layout, you will need to wrap the `ListView` in a `Column`, making sure the list itself is in an `Extends` widget to occupy the available vertical space.
+For the complete layout, you will need to wrap the `ListView` in a `Column`, making sure the list itself is in an `Expanded` widget to occupy the available vertical space.
 
 > Tip: Cmd + . (VS Code) or Alt + Enter (Android Studio) for quick fixes such as wrapping a widget.
 
@@ -85,9 +85,11 @@ Instead of using the keyboard with `onFieldSubmitted`, add a `TextEditingControl
   |            X|
   |            X|
   ---------------
-  | _     | Add |  <- Row with TextFormField and ElevatedButton
+  | _     | Add |  <- Row with TextFormField (in Expanded) and ElevatedButton
   ---------------
 ```
+
+Using the `TextEditingController` you can also clear the input field after adding.
 
 ### 6. Animations
 
